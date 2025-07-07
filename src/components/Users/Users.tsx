@@ -7,6 +7,8 @@ import {
   TableRow,
   TableCell,
   TableBody,
+  TableContainer,
+  Paper,
 } from "@mui/material";
 import { Link } from "react-router-dom";
 import { usePagination } from "../../hooks/usePagination";
@@ -48,6 +50,7 @@ function Users() {
 
   return (
     <Box sx={{ maxWidth: 1000, margin: "2rem auto" }}>
+      <TableContainer component={Paper}>
       <Box
         sx={{
           display: "flex",
@@ -89,6 +92,7 @@ function Users() {
           ))}
         </TableBody>
       </Table>
+      </TableContainer>
       <PaginationControls
         currentPage={currentPage}
         onPrevious={handlePreviousPage}
