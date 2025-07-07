@@ -58,6 +58,12 @@ This project provides a management interface for Projects, Organizations, Users,
    ```
    This will run the tests using Vitest.
 
+6. **Deploying with Docker** 
+   ```sh
+   docker build -t projects-platform .
+   docker run -p 80:80 --env-file .env.production projects-platform
+   ```
+
 ## Project Structure
 
 - `src/`: Contains the source code of the application.
@@ -68,3 +74,6 @@ This project provides a management interface for Projects, Organizations, Users,
   - `i18n/`: Internationalization setup.
   - `styles/`: Global styles
   - `utils/`: Utility functions and constants.
+
+## Live Demo
+- [Live demo](https://assign-projects.netlify.app/) (needs API credentials)
