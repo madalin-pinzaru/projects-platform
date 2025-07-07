@@ -34,8 +34,8 @@ This project provides a management interface for Projects, Organizations, Users,
 
 1. **Clone the repository:**
    ```sh
-   git clone <your-repo-url>
-   cd <your-repo-directory>
+   git clone https://github.com/madalin-pinzaru/projects-platform.git
+   cd projects-platform
    ```
 2. **Install dependencies**
    ```sh
@@ -44,7 +44,7 @@ This project provides a management interface for Projects, Organizations, Users,
    ```
 3. **Start the development server:**
    ```sh
-   npm start
+   npm run dev
    ```
    The app will be available at http://localhost:3000.
 4. **Build the application:**
