@@ -1,0 +1,13 @@
+{
+  "menu": {
+    "projects": "Projects",
+    "organizations": "Organizations",
+    "users": "Users",
+    "statistics": "Statistics",
+    "exercise": "Exercise"
+  },
+  "errorPage": {
+    "title": "Sorry, something went wrong while loading the data.",
+    "retry": "Please try again later."
+  }
+}
